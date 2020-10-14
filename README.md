@@ -12,5 +12,5 @@
     git clone https://github.com/jonasspenger/statefun-workshop.git
     cd statefun-workshop
     mvn clean install package -DskipTests=true
-    mvn 
+    mvn exec:java -Dexec.mainClass="pingpong.Example"
     ```
