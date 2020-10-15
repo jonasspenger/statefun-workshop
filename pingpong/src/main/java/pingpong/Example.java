@@ -50,6 +50,7 @@ public class Example {
         egress.print();
 
         env.execute();
+        System.exit(0);
     }
 
     private static final class PingerPonger implements StatefulFunction {
